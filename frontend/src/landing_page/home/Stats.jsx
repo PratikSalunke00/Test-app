@@ -2,7 +2,7 @@ import React from "react";
 
 function Stats() {
   return (
-    <div className="container p-5">
+    <div className="container p-3">
       <div className="row p-5">
         <div className="col-6 p-5">
           <h1 className="fs-2 mb-5">Trust with confidence</h1>
@@ -40,10 +40,12 @@ function Stats() {
             style={{ width: "90%" }}
           />
           <div className="text-center p-5">
-            <a href="" className="mx-5">Explore our products <i class="fa fa-long-arrow-right"></i></a>
-            <a href="">Try Kite demo <i class="fa fa-long-arrow-right"></i> </a>
+            <a href="" className="mx-5" style={{textDecoration: "none"}}>Explore our products <i className="fa fa-long-arrow-right"></i></a>
+            <a href=""className="mx-5" style={{textDecoration: "none"}} >Try Kite demo <i className="fa fa-long-arrow-right"></i> </a>
           </div>
         </div>
+                  <img src='media/pressLogos.png' style={{width: "90%"}}/>
+
       </div>
     </div>
   );

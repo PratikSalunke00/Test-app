@@ -46,9 +46,10 @@ function Awards() {
                 </li>
               </ul>
             </div>
-            <img src='media/pressLogos.png' style={{width: "90%"}}/>
+            
           </div>
         </div>
+        
       </div>
     </div>
   );
